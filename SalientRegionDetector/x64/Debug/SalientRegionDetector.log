@@ -1,0 +1,53 @@
+﻿生成启动时间为 2020/5/21 11:51:41。
+     1>项目“D:\USERE\research\ganbage\SalientRegionDetectorAndSegmenter20200122\SalientRegionDetector\SalientRegionDetector.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\SalientRegionDetector.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\SalientRegionDetector.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt MeanShiftCode\RAList.cpp MeanShiftCode\ms.cpp MeanShiftCode\msImageProcessor.cpp MeanShiftCode\rlist.cpp PictureHandler.cpp Saliency.cpp SalientRegionDetector.cpp SalientRegionDetectorDlg.cpp
+         RAList.cpp
+         ms.cpp
+     1>MeanShiftCode\ms.cpp(1154): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>MeanShiftCode\ms.cpp(1155): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : 参见“strcat”的声明
+     1>MeanShiftCode\ms.cpp(1156): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : 参见“strcat”的声明
+     1>MeanShiftCode\ms.cpp(1157): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : 参见“strcat”的声明
+     1>MeanShiftCode\ms.cpp(1160): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : 参见“strcat”的声明
+         msImageProcessor.cpp
+     1>MeanShiftCode\msImageProcessor.cpp(865): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>MeanShiftCode\msImageProcessor.cpp(866): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>MeanShiftCode\msImageProcessor.cpp(867): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>MeanShiftCode\msImageProcessor.cpp(914): warning C4244: “=”: 从“double”转换到“BYTE”，可能丢失数据
+     1>MeanShiftCode\msImageProcessor.cpp(915): warning C4244: “=”: 从“double”转换到“BYTE”，可能丢失数据
+     1>MeanShiftCode\msImageProcessor.cpp(916): warning C4244: “=”: 从“double”转换到“BYTE”，可能丢失数据
+         rlist.cpp
+         PictureHandler.cpp
+     1>PictureHandler.cpp(240): warning C4996: '_splitpath': This function or variable may be unsafe. Consider using _splitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(854) : 参见“_splitpath”的声明
+         Saliency.cpp
+         SalientRegionDetector.cpp
+         SalientRegionDetectorDlg.cpp
+     1>SalientRegionDetectorDlg.cpp(254): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>SalientRegionDetectorDlg.cpp(499): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>SalientRegionDetectorDlg.cpp(517): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+         正在生成代码...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\USERE\research\ganbage\SalientRegionDetectorAndSegmenter20200122\x64\Debug\SalientRegionDetector.exe" /INCREMENTAL /NOLOGO opencv_calib3d330d.lib opencv_core330d.lib opencv_dnn330d.lib opencv_features2d330d.lib opencv_flann330d.lib opencv_highgui330d.lib opencv_xfeatures2d330d.lib opencv_imgcodecs330d.lib opencv_imgproc330d.lib opencv_ml330d.lib opencv_objdetect330d.lib opencv_photo330d.lib opencv_shape330d.lib opencv_stitching330d.lib opencv_superres330d.lib opencv_video330d.lib opencv_videoio330d.lib opencv_videostab330d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\USERE\research\ganbage\SalientRegionDetectorAndSegmenter20200122\x64\Debug\SalientRegionDetector.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\USERE\research\ganbage\SalientRegionDetectorAndSegmenter20200122\x64\Debug\SalientRegionDetector.lib" /MACHINE:X64 x64\Debug\SalientRegionDetector.res
+         x64\Debug\PictureHandler.obj
+         x64\Debug\Saliency.obj
+         x64\Debug\SalientRegionDetector.obj
+         x64\Debug\SalientRegionDetectorDlg.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\ms.obj
+         x64\Debug\msImageProcessor.obj
+         x64\Debug\RAList.obj
+         x64\Debug\rlist.obj
+         SalientRegionDetector.vcxproj -> D:\USERE\research\ganbage\SalientRegionDetectorAndSegmenter20200122\x64\Debug\SalientRegionDetector.exe
+     1>已完成生成项目“D:\USERE\research\ganbage\SalientRegionDetectorAndSegmenter20200122\SalientRegionDetector\SalientRegionDetector.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:37.27
